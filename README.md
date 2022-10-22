@@ -13,3 +13,6 @@ Trying to complete the [DSA Cracker Sheet](https://drive.google.com/file/d/1FMdN
 - [x] Write a program to cyclically rotate an array by one.
 - [x] find Largest sum contiguous Subarray [V. IMP]
 - [x] Minimise the maximum difference between heights [V.IMP]
+- [x] Rearrange the array in alternating positive and negative items with O(1) extra space
+- [x] Find if there is any subarray with sum equal to 0
+- [x] Find factorial of a large number
