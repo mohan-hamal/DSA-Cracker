@@ -16,3 +16,5 @@ Trying to complete the [DSA Cracker Sheet](https://drive.google.com/file/d/1FMdN
 - [x] Rearrange the array in alternating positive and negative items with O(1) extra space
 - [x] Find if there is any subarray with sum equal to 0
 - [x] Find factorial of a large number
+- [x] Find longest coinsecutive subsequence
+- [x] Given an array of size n and a number k, fin all elements that appear more than " n/k " times.
