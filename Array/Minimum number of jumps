@@ -1,0 +1,12 @@
+class Solution:
+	def minJumps(self, arr, n):
+	    nxt=[x+arr[x] for x in range(n)]
+        cnt=0
+        cur=0
+        while cur<n-1:
+            if arr[cur]==0:
+                return -1
+            mx=max(nxt[cur+1:cur+arr[cur]+1])
+            cur=cur+arr[cur]-nxt[cur+1:cur+arr[cur]+1][::-1].index(mx)
+            cnt+=1
+        return cnt
